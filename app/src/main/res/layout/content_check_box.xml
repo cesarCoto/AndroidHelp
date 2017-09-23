@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.coto.cesar.androidhelp.CheckBoxActivity"
+    android:background="@color/bg_color"
+    tools:showIn="@layout/activity_check_box">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/txt_title_AcCheckbox_sums"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et_hint_title_AcCheckbox_number_a"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/et_hint_title_AcCheckbox_numbre_b"
+                    android:inputType="number"
+                    android:textColor="@color/colorAccent" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:layout_marginTop="16dp"
+                android:id="@+id/Cb_AcCheckbox_Suma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_Cb_AcCheckbox_sum" />
+
+            <CheckBox
+                android:layout_marginTop="8dp"
+                android:id="@+id/Cb_AcCheckbox_Resta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_Cb_AcCheckbox_subtraction" />
+
+            <CheckBox
+                android:layout_marginTop="8dp"
+                android:id="@+id/Cb_AcCheckbox_Divicion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_Division_Cb_AcCheckblox_division" />
+
+            <CheckBox
+                android:layout_marginTop="8dp"
+                android:id="@+id/Cb_AcCheckbox_Multiplicacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/title_Multiplicacion_Cb_AcCheckbox_multiplication" />
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
