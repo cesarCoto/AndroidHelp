@@ -23,12 +23,23 @@
         <activity
             android:name=".CheckBoxActivity"
             android:label="@string/title_activity_check_box"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".RadioButtonActivity"
+            android:label="@string/title_activity_radio_button"
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity"/>
+                android:value=".MainActivity"
+                />
 
         </activity>
     </application>

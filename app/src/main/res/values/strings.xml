@@ -8,11 +8,15 @@
     <string name="nav_title_checkbox">CheckBox</string>
     <string name="title_activity_check_box">CheckBox</string>
     <string name="nav_title_menu_code">Code</string>
-    <string name="txt_title_AcCheckbox_sums">Sums</string>
+    <string name="txt_title_AcCheckbox_operaciones">Operations</string>
     <string name="et_hint_title_AcCheckbox_numbre_b">Numbre B</string>
     <string name="et_hint_title_AcCheckbox_number_a">Number A</string>
     <string name="title_Multiplicacion_Cb_AcCheckbox_multiplication">Multiplication</string>
     <string name="title_Division_Cb_AcCheckblox_division">Division</string>
     <string name="title_Cb_AcCheckbox_subtraction">Subtraction</string>
     <string name="title_Cb_AcCheckbox_sum">Sum</string>
+    <string name="title_activity_radio_button">RadioButtonActivity</string>
+    <string name="title_radiobutton_AcRadiobutton_blue">Blue</string>
+    <string name="title_radiobutton_AcRadioButton_red">Red</string>
+    <string name="title_radiobutton_AcRadioButton_green">Green</string>
 </resources>

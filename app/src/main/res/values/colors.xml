@@ -3,5 +3,6 @@
     <color name="colorPrimary">#303030</color>
     <color name="colorPrimaryDark">#8b000000</color>
     <color name="colorAccent">#d20004</color>
-    <color name="bg_color">#d2d2d2</color>
+    <color name="bg_color">#bebebe</color>
+    <color name="action_bar_activities">#d4181b</color>
 </resources>

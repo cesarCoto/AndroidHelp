@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.coto.cesar.androidhelp.RadioButtonActivity"
+    android:background="@color/bg_color"
+    android:padding="16dp"
+    tools:showIn="@layout/activity_radio_button">
+
+
+
+    <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:id="@+id/rb_blue_AcRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_radiobutton_AcRadiobutton_blue" />
+
+        <RadioButton
+            android:id="@+id/rb_red_AcRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="@string/title_radiobutton_AcRadioButton_red" />
+
+        <RadioButton
+            android:id="@+id/rb_green_AcRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="@string/title_radiobutton_AcRadioButton_green" />
+    </RadioGroup>
+</RelativeLayout>

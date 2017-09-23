@@ -82,11 +82,13 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_checkbox) {
-            // Iniciar actividad CheckBox
-            Intent Ac_Cb = new Intent(this,CheckBoxActivity.class);
-            startActivity(Ac_Cb);
-        } else if (id == R.id.nav_gallery) {
-
+            // Iniciar actividad CheckBox - En Start activy Checkbox
+            Intent Ac_CheckBox = new Intent(this,CheckBoxActivity.class);
+            startActivity(Ac_CheckBox);
+        } else if (id == R.id.nav_radiobutton) {
+            // Iniciar actividad RadioButton -- En Start activity Radiobutton
+            Intent Ac_RadioButton = new Intent(this,RadioButtonActivity.class);
+            startActivity(Ac_RadioButton);
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {

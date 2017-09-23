@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/txt_title_AcCheckbox_sums"
+                android:text="@string/txt_title_AcCheckbox_operaciones"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textAlignment="center"
                 android:textColor="@color/colorAccent" />
@@ -36,6 +36,7 @@
                 android:layout_height="wrap_content">
 
                 <EditText
+                    android:id="@+id/et_AcCheckbox_numeroA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/et_hint_title_AcCheckbox_number_a"
@@ -50,6 +51,7 @@
                 android:layout_marginTop="8dp">
 
                 <EditText
+                    android:id="@+id/et_AcCheckbox_numeroB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/et_hint_title_AcCheckbox_numbre_b"
@@ -88,13 +90,12 @@
                 android:text="@string/title_Multiplicacion_Cb_AcCheckbox_multiplication" />
 
             <TextView
-                android:layout_marginTop="16dp"
-                android:id="@+id/textView4"
+                android:id="@+id/text_resultado_AcCheckbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorAccent"
-                android:text="" />
-
+                android:layout_marginTop="16dp"
+                android:text=""
+                android:textColor="@color/colorAccent" />
 
         </LinearLayout>
     </ScrollView>

@@ -7,9 +7,9 @@
             android:icon="@drawable/ic_check_box_black_24dp"
             android:title="@string/nav_title_checkbox" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_radiobutton"
+            android:icon="@drawable/ic_radio_button_checked_black_24dp"
+            android:title="RadioButton" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"

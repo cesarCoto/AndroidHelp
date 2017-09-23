@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.coto.cesar.ejemplos.RadioButtonActivity">
+
+
+    <item
+        android:id="@+id/code_radiobutton"
+        android:icon="@drawable/ic_code_black_24dp"
+        android:title="@string/nav_title_menu_code"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+</menu>
